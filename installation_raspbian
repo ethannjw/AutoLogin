@@ -1,0 +1,7 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get python3
+sudo apt-get pip3
+sudo pip3 install selenium
+sudo sudo wget -P /home/pi/Documents https://chromedriver.storage.googleapis.com/78.0.3904.105/chromedriver_linux64.zip
+sudo 
