@@ -1,3 +1,9 @@
+#!/bin/bash
+# Script to install python, selenium and chromedriver for raspbian
+# To run, type in './installation_raspbian.sh' (remove quotes) in commandline.
+# If it says you do not have permission to run, key in 'chmod 755 installation_raspbian.sh' (remove quotes) and try again
+
+# Start of script
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get python3
@@ -16,8 +22,9 @@ sudo dpkg -i /home/pi/Documents/chromium-chromedriver_78.0.3904.108-0ubuntu0.16.
 sudo export PATH=$PATH:/usr/lib/chromium-browser
 echo $PATH
 
+# Optional 
 # To add to PATH manually:
-sudo nano ~/.bashrc
+# sudo nano ~/.bashrc
 # Then add the path to the bottom where t says:
-export PATH=$PATH:/opt
+# export PATH=$PATH:/opt
 # Press ctrl-o then ctrl-x to quit nano
